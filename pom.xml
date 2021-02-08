@@ -3,12 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.go2group.connectall.webui</groupId>
-	<artifactId>connectall-webui</artifactId>
+	<groupId>com.go2group.connectall.grafana</groupId>
+	<artifactId>ca-grafana-hierarchy</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
-
-	<name>ConnectALL WebUI</name>
+	<name>ConnectALL Grafana Hierarchy</name>
 	<url>http://maven.apache.org</url>
 
 	<organization>
@@ -27,6 +26,9 @@
 				<configuration>
 					<descriptor>bin.xml</descriptor>
 					<finalName>ca-grafana-hierarchy</finalName>
+					<archive>
+			            <manifestFile>dist/MANIFEST.txt</manifestFile>
+			         </archive>
 				</configuration>
 				<executions>
 					<execution>

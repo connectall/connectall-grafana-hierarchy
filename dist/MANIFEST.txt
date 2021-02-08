@@ -4,18 +4,16 @@ Hash: SHA512
 
 {
   "manifestVersion": "2.0.0",
-  "signatureType": "private",
+  "signatureType": "community",
   "signedByOrg": "vleo",
   "signedByOrgName": "vleo",
-  "rootUrls": [
-    "http://localhost:3000/"
-  ],
   "plugin": "connect-all-hierarchy",
   "version": "1.0.0",
-  "time": 1611323749610,
+  "time": 1612773395397,
   "keyId": "7e4d0c6a708866e7",
   "files": {
     "index.html": "16f2930a4a803c3768dc4ed794cd8899001e1adcdf79a9d9b06ccaf4e949f619",
+    ".DS_Store": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
     "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
     "module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
     "module.js.map": "4a8f1e7b8feb42e779e69c790c867b0b51443464c1010836b2b5787dd64f07ad",
@@ -29,9 +27,9 @@ Hash: SHA512
 Version: OpenPGP.js v4.10.1
 Comment: https://openpgpjs.org
 
-wqIEARMKAAYFAmAK2WUACgkQfk0ManCIZueCKAIJARMVS8H7Zgy68t8v59d8
-sDizjXwEh+XTkLTg/08OgxxO17S+FWTp9YeSqskDM7m8F6KfG4Imrqg/qatB
-DlBdi9A+AgkBAQ6PftfL0kbuBydb0tsKnxNrxxj6USKod5bCN1LX+BsFJyA5
-8NqsEelJ20fQRJFXotgEb2vOVLyjAJHsftwGtmg=
-=d6QJ
+wqAEARMKAAYFAmAg+BMACgkQfk0ManCIZueINAIGO2JegJTwVvUym1VdcRLt
+ws1kVI7JzOjaXQz4P6OiQT8HbknxjL+bRRtf/9PR+pz3g86ZHyKTtS/R1Tgq
+ruNaIpQCB0AIwrCcvqUaJe6yZZzEpLS7KDgIHPjUKAKmiRzgmFRyfF69/Z8Q
+9+KvUJxg3S9ltFJLEE4CUZyiGUJR8MuULvu4
+=I8t1
 -----END PGP SIGNATURE-----
