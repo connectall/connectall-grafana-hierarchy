@@ -4,21 +4,22 @@ Hash: SHA512
 
 {
   "manifestVersion": "2.0.0",
-  "signatureType": "community",
+  "signatureType": "private",
   "signedByOrg": "vleo",
   "signedByOrgName": "vleo",
+  "rootUrls": [
+    "http://localhost:3000/"
+  ],
   "plugin": "connect-all-hierarchy",
   "version": "1.0.0",
-  "time": 1612773395397,
+  "time": 1612810036578,
   "keyId": "7e4d0c6a708866e7",
   "files": {
-    "index.html": "16f2930a4a803c3768dc4ed794cd8899001e1adcdf79a9d9b06ccaf4e949f619",
-    ".DS_Store": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
     "LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
     "module.js.LICENSE.txt": "0d8f66cd4afb566cb5b7e1540c68f43b939d3eba12ace290f18abc4f4cb53ed0",
-    "module.js.map": "4a8f1e7b8feb42e779e69c790c867b0b51443464c1010836b2b5787dd64f07ad",
-    "plugin.json": "d651fbafcd69e534a112b313efc5419e0fc488f3f36bcc36fa11eb359fd83158",
-    "README.md": "5ba9f6f81524312f230a70aa9e0745398dbca48307968635730f8ced78c70367",
+    "module.js.map": "16ca15d55d0cbafafa5bff7f50859b5f7298414fb9809c1f0ae125b8d8521fe9",
+    "plugin.json": "13005156e21ceca43f1ec06098280b61f04459ef6aaab7d6adaa6aed80c88b01",
+    "README.md": "1b4ebcd3397b4814597908584442985d5bb7de85eb2205ebfcb3652ad0ad476f",
     "img/logo.svg": "a4fa06a865a50adb2fa9f3747e0f3f75943103145a00186788c0e84c7729ec30",
     "module.js": "3f18baf0b45452176e9b001d7e218044e2ba633568c2290ce94fce9286feb63d"
   }
@@ -27,9 +28,9 @@ Hash: SHA512
 Version: OpenPGP.js v4.10.1
 Comment: https://openpgpjs.org
 
-wqAEARMKAAYFAmAg+BMACgkQfk0ManCIZueINAIGO2JegJTwVvUym1VdcRLt
-ws1kVI7JzOjaXQz4P6OiQT8HbknxjL+bRRtf/9PR+pz3g86ZHyKTtS/R1Tgq
-ruNaIpQCB0AIwrCcvqUaJe6yZZzEpLS7KDgIHPjUKAKmiRzgmFRyfF69/Z8Q
-9+KvUJxg3S9ltFJLEE4CUZyiGUJR8MuULvu4
-=I8t1
+wqEEARMKAAYFAmAhhzQACgkQfk0ManCIZuerOwII072kMSPS9L8fYcV/jYJL
+vS7s69eP0rBdTYv8XPJyv5ISj2sKSkMkZLJPc3apqQ+F5utl74kUwSZQYvFj
+JTd1tGUCCQGkgBhMNJUHAG9iFhSEbxcwhHyxoQ1SPvDbt+a/pH4T2hgsWwoO
+30IZyRIAtHoO0dIdID7Miq0kLH2GHjaeM/ZDWQ==
+=kfAQ
 -----END PGP SIGNATURE-----

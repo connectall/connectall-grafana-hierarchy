@@ -2,8 +2,9 @@ import { PanelPlugin } from '@grafana/data';
 import { SimpleOptions } from './types';
 import { SimplePanel } from './SimplePanel';
 
-export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).useFieldConfig({
-    useCustomConfig: (builder) => {
+export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel)
+  .useFieldConfig({
+    useCustomConfig: builder => {
       builder
         .addNumberInput({
           path: 'width',
@@ -33,8 +34,7 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).useFieldConfig
           name: 'Cell display mode',
           description: 'Color text, background, show as gauge, etc',
           settings: {
-            options: [
-            ],
+            options: [],
           },
         })
         .addBooleanSwitch({
@@ -44,47 +44,48 @@ export const plugin = new PanelPlugin<SimpleOptions>(SimplePanel).useFieldConfig
           defaultValue: false,
         });
     },
-  }).setPanelOptions(builder => {
-  return builder
-    .addTextInput({
-      path: 'text',
-      name: 'Simple text option',
-      description: 'Description of panel option',
-      defaultValue: 'Default value of text input option',
-    })
-    .addBooleanSwitch({
-      path: 'showSeriesCount',
-      name: 'Show series counter',
-      defaultValue: false,
-    })
-    .addRadio({
-      path: 'seriesCountSize',
-      defaultValue: 'sm',
-      name: 'Series counter size',
-      settings: {
-        options: [
-          {
-            value: 'sm',
-            label: 'Small',
-          },
-          {
-            value: 'md',
-            label: 'Medium',
-          },
-          {
-            value: 'lg',
-            label: 'Large',
-          },
-        ],
-      },
-      showIf: config => config.showSeriesCount,
-    })
-    .addBooleanSwitch({
-      path: 'showValueIndicator',
-      name: 'Show value indicator',
-      description: 'Displays an indicator for the value under the cursor',
-      category: ['Level Linkages'],
-    });
-});
+  })
+  .setPanelOptions(builder => {
+    return builder
+      .addTextInput({
+        path: 'text',
+        name: 'Simple text option',
+        description: 'Description of panel option',
+        defaultValue: 'Default value of text input option',
+      })
+      .addBooleanSwitch({
+        path: 'showSeriesCount',
+        name: 'Show series counter',
+        defaultValue: false,
+      })
+      .addRadio({
+        path: 'seriesCountSize',
+        defaultValue: 'sm',
+        name: 'Series counter size',
+        settings: {
+          options: [
+            {
+              value: 'sm',
+              label: 'Small',
+            },
+            {
+              value: 'md',
+              label: 'Medium',
+            },
+            {
+              value: 'lg',
+              label: 'Large',
+            },
+          ],
+        },
+        showIf: config => config.showSeriesCount,
+      })
+      .addBooleanSwitch({
+        path: 'showValueIndicator',
+        name: 'Show value indicator',
+        description: 'Displays an indicator for the value under the cursor',
+        category: ['Level Linkages'],
+      });
+  });
 
 export { plugin as PanelCtrl };

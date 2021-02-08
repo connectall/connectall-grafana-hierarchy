@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.go2group.connectall.grafana</groupId>
-	<artifactId>ca-grafana-hierarchy</artifactId>
+	<artifactId>connectall-grafana-hierarchy</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<name>ConnectALL Grafana Hierarchy</name>

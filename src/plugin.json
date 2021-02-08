@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "hierarchy",
-  "id": "connect-all-hierarchy",
+  "id": "connectall-grafana-hierarchy",
   "info": {
     "description": "ConnectALL Hierarchy Data Visualizer Plugin",
     "author": {
@@ -22,11 +22,7 @@
     "links": [
       {
         "name": "Website",
-        "url": "https://github.com/grafana/simple-react-panel"
-      },
-      {
-        "name": "License",
-        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+        "url": "https://github.com/connectall/connectall-grafana-hierarchy"
       }
     ],
     "screenshots": [],
