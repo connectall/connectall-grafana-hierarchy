@@ -1,17 +1,17 @@
 {
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
-  "name": "hierarchy",
+  "name": "grafana-hierarchy",
   "id": "connectall-grafana-hierarchy",
   "info": {
-    "description": "ConnectALL Hierarchy Data Visualizer Plugin",
+    "description": "Custom Plugin that dispays the hierarchy structure associated",
     "author": {
       "name": "Vijay Leo Marcelin",
       "url": "www.connectall.com"
     },
     "keywords": [
       "hierarchy",
-      "parent",
-      "child",
+      "connectall",
       "tree",
       "levels"
     ],
@@ -19,7 +19,7 @@
       "small": "img/logo.svg",
       "large": "img/logo.svg"
     },
-    "links": [
+   "links": [
       {
         "name": "Website",
         "url": "https://github.com/connectall/connectall-grafana-hierarchy"
@@ -30,7 +30,7 @@
     "updated": "%TODAY%"
   },
   "dependencies": {
-    "grafanaVersion": "7.0.x",
+    "grafanaDependency": ">=7.0.0",
     "plugins": []
   }
 }
