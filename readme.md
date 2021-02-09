@@ -54,7 +54,7 @@ go run build.go build
 ```
 Click the below to see the grafana in your local:
 
-[grafana-local](https://localhost:3000/)
+[grafana-local](http://localhost:3000/)
 
 ### Login Credentials:
 
