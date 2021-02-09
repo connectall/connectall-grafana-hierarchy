@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "grafana-hierarchy",
-  "id": "connectall-grafana-hierarchy",
+  "id": "connectall-grafana-hierarchy-panel",
   "info": {
     "description": "Custom Plugin that dispays the hierarchy structure associated",
     "author": {
-      "name": "Vijay Leo Marcelin",
+      "name": "connectall",
       "url": "www.connectall.com"
     },
     "keywords": [
