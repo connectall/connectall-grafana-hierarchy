@@ -5,7 +5,7 @@
 
 	<groupId>com.go2group.connectall.grafana</groupId>
 	<artifactId>connectall-grafana-hierarchy</artifactId>
-	<version>1.0</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 	<name>ConnectALL Grafana Hierarchy</name>
 	<url>http://maven.apache.org</url>
@@ -25,7 +25,7 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<descriptor>bin.xml</descriptor>
-					<finalName>connectall-grafana-hierarchy</finalName>
+					<finalName>connectall-grafana-hierarchy-v${version}</finalName>
 					<archive>
 			            <manifestFile>dist/MANIFEST.txt</manifestFile>
 			         </archive>
