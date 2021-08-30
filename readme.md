@@ -1,4 +1,4 @@
-# Grafana Custom ConnectALL plugin - Overview of CA Hierarchy plugin
+# Grafana Custom ConnectALL plugin - Overview of ConnectALL Hierarchy plugin
 
 #### The primary objective of this plugin is to project an hierarchial structure to the user who takes effect of our custom grafana plugin.
 
@@ -31,7 +31,7 @@ For mac users,
 ```terminal
 brew install go
 ```
-From the CA grafana repositpory
+From the ConnectALL grafana repositpory
 ```git
 git clone grafana 
 ```
